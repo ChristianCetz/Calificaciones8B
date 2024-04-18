@@ -1,0 +1,253 @@
+.container-Alumnos {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .titulo-Alumnos {
+    font-size: 28px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .usuarios-lista-Alumnos {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .usuario-item-Alumnos {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+  }
+  
+  .usuario-dato-Alumnos {
+    font-weight: bold;
+  }
+  
+  .editar-button-Alumnos {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .editar-button-Alumnos:hover {
+    background-color: #6a0dad;
+  }
+  
+  .modal-Alumnos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-contenido-Alumnos {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .modal-titulo-Alumnos {
+    margin-top: 0;
+  }
+  
+  .modal-contenido-Alumnos form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .modal-contenido-Alumnos form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .guardar-button-Alumnos,
+  .cancelar-button-Alumnos {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .guardar-button-Alumnos {
+    background-color: purple;
+    color: #fff;
+  }
+  
+  .cancelar-button-Alumnos {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  .eliminar-button-Alumnos {
+    background-color: #dc3545;
+    color: #fff;
+    border: 2px solid ; /* Agrega bordes de 2px */
+    border-radius: 5px; /* Añade bordes redondeados */
+}
+
+  
+  .usuarios-table-Alumnos {
+    width: 100%;
+    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .usuarios-table-Alumnos th,
+  .usuarios-table-Alumnos td {
+    border: 1px solid #836492;
+    padding: 12px; /* Aumentar el padding para espaciar más los datos */
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .usuarios-table-Alumnos th {
+    background-color: #f2f2f2;
+    text-align: center; /* Centrar el texto */
+    width: 250px;
+  }
+  
+  .usuarios-table-Alumnos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .usuarios-table-Alumnos td button {
+    padding: 8px 14px; /* Ajustar el padding del botón */
+    font-size: 14px; /* Aumentar el tamaño de la fuente del botón */
+  }
+  
+  .usuarios-table-Alumnos td button:hover {
+    background-color: #6a0dad;
+  }
+  
+  .modal-Alumnos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-contenido-Alumnos {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .modal-titulo-Alumnos {
+    margin-top: 0;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .calificaciones-table-Alumnos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .calificaciones-table-Alumnos th,
+  .calificaciones-table-Alumnos td {
+    border: 1px solid #836492;
+    padding: 12px; /* Aumentar el padding para espaciar más los datos */
+    font-size: 16px; /* Aumentar el tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .calificaciones-table-Alumnos th {
+    background-color: #f2f2f2;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .calificaciones-table-Alumnos tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .cerrar-modal-button-Alumnos {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cerrar-modal-button-Alumnos:hover {
+    background-color: #bb2d3b;
+  }
+  .ver-calificaciones-button-Alumnos {
+    margin-left: 5px; /* Espacio entre botones */
+    padding: 5px 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ver-calificaciones-button-Alumnos:hover {
+    background-color: #6a0dad;
+  }
+
+  .modal-Alumnos {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido-Alumnos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-titulo-Alumnos {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.eliminar-confirmacion-button-Alumnos,
+.cancelar-confirmacion-button-Alumnos {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.eliminar-confirmacion-button-Alumnos {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.cancelar-confirmacion-button-Alumnos {
+    background-color: #6c757d;
+    color: #fff;
+}
+    

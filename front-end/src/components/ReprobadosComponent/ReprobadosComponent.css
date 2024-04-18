@@ -1,0 +1,53 @@
+/* ReprobadosComponent.css */
+
+.reprobados-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.titulo3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.lista-reprobados {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.lista-reprobados th,
+.lista-reprobados td {
+   border: 1px solid #836492;
+    padding: 12px;
+    width: 250px;
+}
+
+.lista-reprobados th {
+    background-color: #f2f2f2;
+}
+
+.lista-reprobados td {
+    text-align: left;
+}
+
+.lista-reprobados h3 {
+    margin-bottom: 10px;
+}
+
+.lista-reprobados p {
+    margin: 5px 0;
+}
+
+.lista-reprobados ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lista-reprobados li > ul > li {
+    margin-left: 20px;
+}

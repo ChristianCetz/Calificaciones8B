@@ -1,0 +1,70 @@
+/* ActualizarMateria.css */
+
+.actualizar-materia-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .actualizar-materia-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .actualizar-materia-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  .actualizar-materia-header,
+  .actualizar-materia-data {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #836492;
+  }
+
+  .actualizar-materia-header th {
+    border: 1px solid #836492;
+  }
+  
+  .actualizar-materia-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border: 1px solid #836492;
+  }
+  
+  .actualizar-materia-row:nth-child(even) {
+    background-color: #f2f2f2;
+    
+    
+  }
+  
+  .actualizar-materia-input {
+    width: 100%;
+    padding: 5px;
+  background-color:#dbdada;
+    box-sizing: border-box;
+    border: 1px solid #5c5c5c;
+  }
+  
+  .actualizar-materia-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .actualizar-materia-button:hover {
+    background-color: #6a0dad;
+  }

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Estilos para el contenido principal */
+#main-content {
+    margin-top: 150px; /* Ajusta el margen superior según la altura del navbar */
+  }
+  

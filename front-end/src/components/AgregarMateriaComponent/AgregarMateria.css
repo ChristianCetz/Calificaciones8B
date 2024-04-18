@@ -1,0 +1,44 @@
+.agregar-materia-container-agregarmateria {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .titulo-agregarmateria {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .label-agregarmateria {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .input-agregarmateria {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-agregarmateria {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-agregarmateria:hover {
+    background-color: #6a0dad;
+  }
+  

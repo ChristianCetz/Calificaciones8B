@@ -1,0 +1,40 @@
+/* En NavBarComponent.css */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  .navbar-left {
+    flex: 1; /* Toma todo el espacio disponible en la izquierda */
+  }
+  
+  .navbar-right {
+    flex: 1; /* Toma todo el espacio disponible en la derecha */
+    text-align: right; /* Alinea los elementos a la derecha */
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .navbar button {
+    margin-right: 10px; /* Agrega un margen entre los botones */
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .navbar button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }

@@ -1,0 +1,39 @@
+/* En Home.css */
+
+.Custom-container-8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #fff; /* Fondo blanco */
+    border: 2px solid #ccc; /* Borde de 2px sólido negro */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 50px; /* Espaciado interno */
+  }
+  
+  .Custom-welcome-box-8 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Custom-button-container-8 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .Custom-button-8 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Custom-button-8:hover {
+    background-color: #0056b3;
+  }
+  

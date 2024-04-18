@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #e4dbf1; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.custom-button {
+    padding: 10px 20px;
+    background-color: #724fdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #341071;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: Left; 
+    border: 2px solid #ccc;
+    padding: 50px;
+    max-width: 480px; 
+    margin: 0 auto;    
+    background-color: #fdfdfd; 
+    border-radius: 25px;
+}
+
+
+.centered-container {
+
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+
+.avatar {
+    width: 40px; /* Ancho de la imagen */
+}
+
+.input-container {
+    margin-left: 30px; /* Espacio entre la imagen y el input */
+    
+  
+    
+}
+
+.custom-input {
+    background-color: #ccc;
+   
+    
+    
+}
+.tamano{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+
+.login1{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.custom-container-login {
+    text-align: center; /* Centra el contenido del contenedor */
+  }
+.custom-butto2 {
+    display: inline-block; /* Hace que el botón tome el ancho del contenido */
+    padding: 10px 20px;
+    background-color: #724fdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-butto2:hover {
+    background-color: #3a1978;
+  }
+  
+  .custom-butto2:focus {
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+  }
+

@@ -1,0 +1,133 @@
+.calificaciones-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center; /* Centra el contenido */
+  }
+  
+  .titulo4 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px; /* Añade espacio entre el título y la tabla */
+  }
+  
+  .tabla-contenedor {
+    display: inline-block; /* Permite centrar horizontalmente la tabla */
+    text-align: left; /* Alinea el texto de la tabla a la izquierda */
+  }
+  
+  .user-calificaciones-container {
+    display: inline-block; /* Permite que las tablas estén una al lado de la otra */
+    margin-right: 20px; /* Añade espacio entre las tablas */
+  }
+  
+  .lista-calificaciones {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .lista-calificaciones th,
+  .lista-calificaciones td {
+    border: 1px solid #836492;
+    padding: 10px;
+  }
+  
+  .lista-calificaciones th {
+    background-color: #f2f2f2;
+  }
+  
+
+  /* Estilos para el modal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .modal-contenido {
+    
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 150%;
+    max-width: 400px; /* Ancho máximo del contenido del modal */
+  }
+  
+  /* Estilos para el título del usuario en el modal */
+.modal-contenido h2 {
+  margin-top: 0;
+  margin-bottom: 20px; /* Añade espacio entre el título y el contenido */
+  color: #333; /* Color de texto */
+  font-size: 20px; /* Tamaño de fuente */
+}
+
+/* Estilos para la línea debajo del título */
+.modal-contenido .linea-titulo {
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el botón "Ver detalles" */
+.user-calificaciones-container button {
+  padding: 8px 16px;
+  border: none;
+  background-color: purple;
+  color: #fff; /* Color de texto blanco */
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-calificaciones-container button:hover {
+  background-color: #6a0dad;
+}
+
+  
+  .modal-contenido p {
+    margin-bottom: 10px;
+    color: #333; /* Color de texto */
+  font-size: 20px; /* Tamaño de fuente */
+  
+  }
+  
+  
+  /* Estilos para el botón de cerrar el modal */
+  .modal-contenido button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #ccc;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-contenido button:hover {
+    background-color: #bbb;
+  }
+  
+  .modal-contenido input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2; /* Color de fondo gris */
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los input cuando están enfocados */
+  .modal-contenido input:focus {
+    outline: none;
+    border-color: #007bff; /* Cambia el color del borde cuando está enfocado */
+  }

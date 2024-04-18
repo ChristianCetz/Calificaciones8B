@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #e4dbf1; 
+}
+
+.button-containe {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-butto {
+    padding: 10px 20px;
+    background-color: #724fdb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-butto:hover {
+    background-color: #3a1978;
+}
+
+.custom-butto:focus {
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+}
+
+.main-containe {
+    display: flex;
+    justify-content: center;
+    align-items: left; 
+    border: 2px solid #ccc;
+    padding: 50px;
+    max-width: 480px; 
+    margin: 0 auto;    
+    background-color: #fdfdfd; 
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra */
+}
+
+.centered-containe {
+
+}
+
+.flex-containe {
+    display: flex;
+    
+}
+
+.avata {
+    width: 50px; /* Ancho de la imagen */
+    margin-top: 20px;
+}
+
+.input-containe {
+    margin-left: 30px; /* Espacio entre la imagen y el input */
+    flex-grow: 1; /* Permite que el input ocupe el espacio restante */
+}
+
+.custom-inpu {
+  background-color: #ccc;
+  width: 100%; /* Hace que el input ocupe todo el espacio disponible */
+  padding: 10px; /* Ajusta el padding para que se vea más grande */
+  font-size: 20px; /* Ajusta el tamaño de la fuente para que se vea más grande */
+  border: 2px solid #aaa; /* Añade un borde de 2px de ancho y color gris */
+  border-radius: 5px; /* Añade bordes redondeados */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-inpu:focus {
+    border-color: #724fdb; /* Cambia el color del borde al enfocar */
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+}
+
+.taman{
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.registro1{
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.custom-container-login {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+
+.custom-butto1 {
+    display: inline-block; /* Hace que el botón tome el ancho del contenido */
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-butto1:hover {
+    background-color: #6a0dad;
+}
+
+.custom-butto1:focus {
+    outline: none; /* Eliminar el borde de enfoque predeterminado */
+}
